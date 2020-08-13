@@ -134,7 +134,7 @@ p {
   color: var(--primary-text-color);
   text-align: center;
 }
-.text-item {
+.text-span {
   background-color: var(--ptimary-blue-color);
   color: var(--accent-color);
 }
