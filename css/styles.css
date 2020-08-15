@@ -11,9 +11,17 @@ body {
   font-family: Roboto, sans-serif;
   text-decoration: none;
   letter-spacing: 0.03em;
+  line-height: 1.14;
+  font-weight: 400;
+  font-size: 14px;
 }
 html {
   box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
 }
 ul {
   list-style: none;
@@ -33,7 +41,7 @@ p {
   list-style: none;
 }
 .container {
-  width: 1170px;
+  width: 1200px;
   padding: 0px 15px;
   margin-left: auto;
   margin-right: auto;
@@ -66,7 +74,7 @@ p {
   margin-right: 50px;
 }
 
-.auth-nav .link {
+.contacts-nav .link {
   padding-bottom: 32px;
   padding-top: 32px;
   justify-content: center;
@@ -79,15 +87,15 @@ p {
   line-height: 1, 14px;
   text-decoration: none;
 }
-.auth-nav .link:hover,
-.auth-nav .link:focus {
+.contacts-nav .link:hover,
+.contacts-nav .link:focus {
   color: var(--ptimary-blue-color);
 }
-.auth-nav {
+.contacts-nav {
   display: flex;
   margin-left: auto;
 }
-.auth-nav .item:not(:last-child) {
+.contacts-nav .item:not(:last-child) {
   margin-right: 30px;
 }
 .img-nav {
@@ -106,6 +114,10 @@ p {
 }
 .logo-accent {
   color: var(--ptimary-blue-color);
+}
+.hero-container {
+  margin-bottom: 0;
+  padding: 200px 277px 195px 277px;
 }
 .hero {
   text-align: center;
@@ -133,7 +145,21 @@ p {
   line-height: 1, 16px;
   text-align: center;
 }
-.section-title-business {
+.features-container {
+}
+.section-title-feaures {
+  color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1, 14px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  text-transform: uppercase;
+}
+.work-container {
+}
+.section-title-work {
   background-color: rgba(47, 48, 58, 0.8);
   color: var(--accent-color);
 
@@ -144,15 +170,7 @@ p {
   text-align: center;
   text-transform: uppercase;
 }
-.section-title-work {
-  color: var(--title-text-color);
-
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1, 14px;
-  letter-spacing: 0.03em;
-  text-align: center;
-  text-transform: uppercase;
+.team-container {
 }
 .section-title-team {
   color: var(--title-text-color);
@@ -162,6 +180,8 @@ p {
   line-height: 1, 35px;
   text-align: center;
   letter-spacing: 0.03em;
+}
+.clients-container {
 }
 .section-text {
   color: var(--primary-text-color);
@@ -191,4 +211,7 @@ p {
   font-size: 14px;
   line-height: 1, 14px;
   letter-spacing: 0.02em;
+}
+.hidden {
+  display: none;
 }
