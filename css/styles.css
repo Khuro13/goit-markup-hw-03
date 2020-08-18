@@ -276,15 +276,6 @@ p {
 .clients {
   display: flex;
 }
-
-/* .text {
-  color: var(--primary-text-color);
-
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71px;
-  text-align: center;
-} */
 .text-span {
   background-color: var(--ptimary-blue-color);
   color: var(--accent-color);
@@ -318,13 +309,8 @@ p {
   background-color: var(--footer-bg-color);
 }
 .footer {
-  display: block;
 }
 .footer-content {
-  display: flex;
-  align-items: baseline;
-  flex-direction: row;
-  padding-bottom: 28;
 }
 .logo-studio {
   color: var(--accent-color);
