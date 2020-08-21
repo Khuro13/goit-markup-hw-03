@@ -319,11 +319,8 @@ li {
   border-radius: 4px;
   border-color: transparent;
   letter-spacing: 0.03em;
+  font-family: inherit;
 }
-/* .button .link:hover,
-.button .link:focus {
-  background-color: var(--ptimary-blue-color);
-  color: var(--accent-color); */
 .filter-item:not(:last-child) {
   margin-right: 8px;
 }
@@ -409,7 +406,7 @@ li {
 
   font-weight: 700;
   font-size: 18px;
-  line-height: 2px;
+  line-height: 2;
   letter-spacing: 0.06em;
 }
 .other-text {
