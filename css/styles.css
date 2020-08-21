@@ -267,7 +267,7 @@ li {
 .team-text {
   color: var(--primary-text-color);
 
-  padding-bottom: 30px;
+  padding-bottom: 16px;
   text-align: center;
 }
 .team {
@@ -296,7 +296,7 @@ li {
 .clients-section {
   padding-bottom: 94px;
 }
-.clients .item:not(:last-child) {
+.clients-list .item:not(:last-child) {
   margin-right: 30px;
 }
 .clients-list {
@@ -307,7 +307,6 @@ li {
   border-radius: 4px;
   align-items: center;
   width: 170px;
-  margin-right: 30px;
   padding: 16px 61px;
 }
 .company {
@@ -361,7 +360,7 @@ li {
   text-align: center;
 }
 .social {
-  padding-bottom: 30px;
+  padding-bottom: 24px;
 }
 .social .item {
   margin-right: 0;
